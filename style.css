@@ -1,0 +1,39 @@
+#forecast {
+    background-color: aquamarine;
+    background: aquamarine;
+    float: left;
+    display: flex;
+}
+.forecast {
+    width: 30%;
+    margin: 1%;
+}
+
+
+.body {
+    background-image: url('/assets/nightBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    color: indianred;
+    font-family: 'Squada One', cursive;
+}
+h2 {
+    text-align: center;
+    background-color: aquamarine;
+    color: indianred;
+    font-family: 'Squada One', cursive;
+}
+
+#history {
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid black;
+}
+/* #headline {
+    color: aquamarine;
+} */
