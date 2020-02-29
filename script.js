@@ -16,7 +16,7 @@ if (searchHistory.length > 0){
     }
 }
 $('#history').on("click",".searchResults" ,function(event){
-    event.preventDefault()
+    // event.preventDefault()
     console.log("on.")
     var searchText = $(this).text()
     console.log(searchText)

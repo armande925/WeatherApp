@@ -9,36 +9,41 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 
   <title>Weather World</title>
 </head>
 
 <body>
-  <div id="headline">
-    <h1>World Weather App<h2>Your world...your weather</h2></h1>
-  </div>
-  <div class='container'>
-    <div class="row">
-      <div class="col-md-4">
-        <input type="text" id='locationText'>
-        <button id="search">SEARCH</button>
-      </div>
-      <div class="col-md-8" id="currentWeather">
-        <!-- <p>hi there </p> -->
-      </div>
+  <div class="container" id="background">
+    <div id="headline">
+      <h1>World Weather App<h2>Your world...your weather</h2>
+      </h1>
     </div>
-    <div class="row">
-      <div id="forecast">
-        <!-- <p>hi there </p> -->
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" id='locationText'>
+          <button id="search">SEARCH</button>
+        </div>
+        <div class="col-md-8" id="currentWeather">
+          <!-- <p>hi there </p> -->
+        </div>
       </div>
-    </div>
-    <div id="history" class="row">
-      <button class="btn btn-danger" id="clearButton">Clear Results</button>
+      <div class="row">
+        <div id="forecast">
+          <!-- <p>hi there </p> -->
+        </div>
+      </div>
+      <div id="history" class="row">
+        <button class="btn btn-danger" id="clearButton">Clear Results</button>
 
+      </div>
     </div>
-  </div>
+    <img class="container" id="background" src="assets/sunriseBackground.jpg" alt="nightImage">
 
+  </div>
+  
 
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
